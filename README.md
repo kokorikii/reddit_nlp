@@ -15,7 +15,7 @@ The first model used was logistic regression using count vectorization and a gri
 <img src="./charts/nflcoef_static.png" alt="Drawing" style="width: 500px;"/>
 <img src="./charts/ffcoef_static.png" alt="Drawing" style="width: 500px;"/>
 
-With coefficients mapped focus turned to finding the best performing model. Random forest, Naive Bayes and Gradient Boosting were tried with a gridsearch for multiple ngram parameters. The best performing model was Gradient Boosting with an ngram range of 1,3. This model performed with 81.16% accuracy in comparison to a baseline model of 51.48%. The prediction probabilities were also pulled out of the Gradient Boosting model and combined with the original data to get a better idea of which types of titles the model performed well and poorly on. 
+With coefficients mapped focus turned to finding the best performing model. Random forest, Naive Bayes and Gradient Boosting were tried with a gridsearch for multiple ngram parameters. The best performing model was Gradient Boosting with an ngram range of 1,3. This model performed with <strong>81.16%</strong> accuracy in comparison to a baseline model of 51.48%. The prediction probabilities were also pulled out of the Gradient Boosting model and combined with the original data to get a better idea of which types of titles the model performed well and poorly on. 
 
 ## Data Dictionary
 
