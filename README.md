@@ -1,4 +1,4 @@
-# Project 3: Reading Reddit
+# Reading Reddit
 
 ## Problem Statement
 
